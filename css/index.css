@@ -2,34 +2,34 @@
     font-family: "Dancing Script", cursive;
     font-size: 3rem;
   }
-  #profile-picture {
-    border-radius: 50%;
-    margin: 1em;
-    width: 30%;
-    border-color: blueviolet;
-    border-width: 5dvi;
-    border-style:inset;
-  }
-  h2 {
-    font-weight: bold;
-    font-size: 2rem;
-  }
-  #experience ul li {
-    list-style: none;
-    display:inline-block;
-    margin: 0.5em;
-    background-color: rgb(123, 197, 243);
-    color: whitesmoke;
-    padding: 0.5em;
-    border-radius: 0.6em;
-    border-color: rgb(10, 104, 255);
-    border-style: solid;
-  }
-  body {
-  
-  height: 100vh;
-    background-color: rgb(104, 127, 209);
-    font-family: "Ysabeau Infant", sans-serif;
-  }
+#profile-picture {
+  border-radius: 50%;
+  margin: 1em;
+  width: 30%;
+  border-color: rgb(40, 27, 226);
+  border-width: 5dvi;
+  border-style:outset
+}
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+}
+#experience ul li {
+  list-style: none;
+  display:inline-block;
+  margin: 0.5em;
+  background-color: rgb(123, 197, 243);
+  color: whitesmoke;
+  padding: 0.5em;
+  border-radius: 0.6em;
+  border-color: rgb(10, 104, 255);
+  border-style: solid;
+}
+body {
+
+height: 100vh;
+  background-color: rgb(104, 127, 209);
+  font-family: "Ysabeau Infant", sans-serif;
+} 
   
   
