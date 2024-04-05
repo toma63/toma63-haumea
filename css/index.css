@@ -1,6 +1,22 @@
+#navigation ul {
+  display:flex;
+  gap: 3em;
+  padding-bottom:0;
+  list-style:none;
+}
+a:hover {
+  opacity: 0.3;
+}
+#navigation {
+  position:fixed;
+  top:0;
+  scroll-padding-top:1ch;
+  background-color: rgb(76, 130, 224);
+}
 #name {
   font-family: "Dancing Script", cursive;
   font-size: 3rem;
+  padding-top:2ch;
 }
 h2 {
   font-weight:bold;
@@ -13,7 +29,7 @@ body {
 }
 #experience ul li {
   list-style: none;
-  display:inline-block;
+  display:flexbox;
   margin: 0.5em;
   background-color: rgb(123, 197, 243);
   color: whitesmoke;
@@ -25,7 +41,7 @@ body {
 #profile-picture {
   border-radius: 50%;
   margin: 1em;
-  width: 30%;
+  width: 30vw;
   border-color: rgb(27, 126, 226);
   border-width:3dvi;
   border-style:inset;
@@ -33,7 +49,7 @@ body {
 #connect ul li {
   list-style: none;
   display:flexbox;
-  Margin: 3em;
+  Margin: 1em;
   padding: 0.5em;
   color: whitesmoke;
   background-color:aqua;
