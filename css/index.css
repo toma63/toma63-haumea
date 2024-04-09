@@ -1,17 +1,16 @@
 #navigation ul {
   display:flex;
-  gap: 3em;
+  gap: 4em;
   padding-bottom:0;
   list-style:none;
-}
-a:hover {
-  opacity: 0.3;
 }
 #navigation {
   position:fixed;
   top:0;
-  scroll-padding-top:1ch;
   background-color: rgb(76, 130, 224);
+}
+a:hover {
+  opacity: 0.3;
 }
 #name {
   font-family: "Dancing Script", cursive;
@@ -31,12 +30,28 @@ body {
   list-style: none;
   display:flexbox;
   margin: 0.5em;
-  background-color: rgb(123, 197, 243);
   color: whitesmoke;
   padding: 0.5em;
+  
+}
+#experience ul li span {
+  padding:0.9em;
+  display: flexbox;
+  background-color: rgb(123, 197, 243);
   border-radius: 0.6em;
   border-color: rgb(10, 104, 255);
   border-style: solid;
+}
+table {
+  margin: auto; 
+  width: 90%; 
+  border-spacing: 0; 
+}
+th,td { 
+  padding: 10px; 
+}
+tr:nth-of-type(odd) { 
+  background-color: blue; 
 }
 #profile-picture {
   border-radius: 50%;
