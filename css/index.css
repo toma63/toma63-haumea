@@ -42,16 +42,19 @@ body {
   border-color: rgb(10, 104, 255);
   border-style: solid;
 }
-table {
-  margin: auto; 
-  width: 90%; 
-  border-spacing: 0; 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Adjust column widths as needed */
+  gap: 10px; /* Space between rows and columns */
 }
-th,td { 
-  padding: 10px; 
+.grid-item {
+  display:flexbox;
+  background-color:aqua;
+  border-radius: 0.8em;
+  padding: 0.5em;
 }
-tr:nth-of-type(odd) { 
-  background-color: blue; 
+.date {
+  font-weight: bold;
 }
 #profile-picture {
   border-radius: 50%;
