@@ -26,32 +26,19 @@ body {
   background-color: rgb(76, 130, 224);
   font-family: "Ysabeau Infant", sans-serif;
 }
-#experience ul li {
-  list-style: none;
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Adjust column widths as needed */
+  gap: 10px; /* Space between rows and columns */
+}
+.grid-item {
   display:flexbox;
-  margin: 0.5em;
-  color: whitesmoke;
+  background-color:aqua;
+  border-radius: 0.8em;
   padding: 0.5em;
-  
 }
-#experience ul li span {
-  padding:0.9em;
-  display: flexbox;
-  background-color: rgb(123, 197, 243);
-  border-radius: 0.6em;
-  border-color: rgb(10, 104, 255);
-  border-style: solid;
-}
-table {
-  margin: auto; 
-  width: 90%; 
-  border-spacing: 0; 
-}
-th,td { 
-  padding: 10px; 
-}
-tr:nth-of-type(odd) { 
-  background-color: blue; 
+.date {
+  font-weight: bold;
 }
 #profile-picture {
   border-radius: 50%;
