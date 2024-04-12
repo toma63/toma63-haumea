@@ -28,7 +28,7 @@ body {
 }
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 30em));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 10px; /* Space between rows and columns */
 }
 .grid-item {
@@ -44,8 +44,8 @@ body {
 }
 .date {
   font-weight: bold;
-  min-width: 10em;
-  margin-top:
+  margin-right: 1em;
+  min-width: fit-content;
 }
 #profile-picture {
   border-radius: 50%;
