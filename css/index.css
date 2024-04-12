@@ -57,7 +57,7 @@ body {
 }
 #connect ul li {
   list-style: none;
-  display:flexbox;
+  display:flex;
   Margin: 1em;
   padding: 0.5em;
   color: whitesmoke;
