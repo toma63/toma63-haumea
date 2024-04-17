@@ -9,6 +9,9 @@
   top:0;
   background-color: rgb(76, 130, 224);
 }
+#about, #experience, #skills, #projects, #connect {
+  scroll-margin-top: 3em;
+}
 a:hover {
   opacity: 0.3;
 }
@@ -29,7 +32,7 @@ body {
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 10px; /* Space between rows and columns */
+  gap: 10px;
 }
 .grid-item {
   display: flex;
