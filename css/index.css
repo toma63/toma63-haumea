@@ -9,6 +9,9 @@
   top:0;
   background-color: rgb(76, 130, 224);
 }
+#about, #experience, #skills, #projects, #connect {
+  scroll-margin-top: 3em;
+}
 a:hover {
   opacity: 0.3;
 }
