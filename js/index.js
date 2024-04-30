@@ -96,12 +96,12 @@ function makeEditButton() {
         }
 
         // don't display the old remove button while editing
-        let removeButton = entry.querySelector('button.remove-button');
-        if (removeButton) {
-            removeButton.hidden = true;
+        let oldRemoveButton = entry.querySelector('button.remove-button');
+        if (oldRemoveButton) {
+            oldRemoveButton.hidden = true;
         }
 
-        // get the entries unique id so its content can be used in the form
+        // get the entry's unique id so its content can be used in the form
         let uid = entry.getAttribute('id');
         let clonedForm = messageForm.cloneNode(true);
         clonedForm.usersName.value = entryById[uid].usersName;
@@ -113,7 +113,7 @@ function makeEditButton() {
             entryById[uid].usersName = event.target.usersName.value;
             entryById[uid].usersEmail = event.target.usersEmail.value;
             entryById[uid].usersMessage = event.target.usersMessage.value;
-            let newEntry = document.createElement('div');
+            let newEntry = document.createElement('li');
             newEntry.classList.add('message-item');
             newEntry.setAttribute('id', uid);
             newEntry.innerHTML = `<a href="mailto:${entryById[uid].usersEmail} "> ${entryById[uid].usersName} </a><span>wrote: ${entryById[uid].usersMessage}</span>`;
