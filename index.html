@@ -78,6 +78,37 @@
             </li>
         </ul>
     </section>
+    <section id="message-form">
+        <h2>Leave a Message</h2>
+        <form name="leave_message">
+          <label for="usersName">Name:</label>
+          <input
+            type="text"
+            id="usersName"
+            name="usersName"
+            required="true"
+          /><br />
+          <label for="usersEmail">Email:</label>
+          <input
+            type="email"
+            id="usersEmail"
+            name="usersEmail"
+            required="true"
+          /><br />
+          <label for="usersMessage">Message:</label>
+          <textarea
+            name="usersMessage"
+            id="usersMessage"
+            required="true"
+          ></textarea
+          ><br />
+          <button type="submit" value="submit" name="submit">Submit</button>
+        </form>
+      </section>
+      <section id="message-section">
+        <h2>Messages</h2>
+        <ul id="messages"></ul>
+      </section>
     <script src="js/index.js"></script>
 </body>
 </html>
