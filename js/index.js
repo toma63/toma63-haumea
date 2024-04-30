@@ -20,6 +20,10 @@ for (let skill of skills) {
     skillsList.appendChild(skillItem);
 }
 
+//
+// handle events for the message form
+//
+
 let messageForm = document.querySelector("[name='leave_message']");
 let messageSection = document.getElementById('message-section');
 let messageList = messageSection.querySelector('ul');
