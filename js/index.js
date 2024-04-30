@@ -101,7 +101,7 @@ function makeEditButton() {
             removeButton.hidden = true;
         }
 
-        // get the entries unique id so it's content can be used in the form
+        // get the entries unique id so its content can be used in the form
         let uid = entry.getAttribute('id');
         let clonedForm = messageForm.cloneNode(true);
         clonedForm.usersName.value = entryById[uid].usersName;
