@@ -67,6 +67,23 @@ body {
   background-color:aqua;
   border-radius: 0.8em;
 }
+.message-form {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+button {
+  background-color:aqua;
+  border-radius: 0.8em;
+}
+.message-item {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+footer {
+  padding: 5px;
+}
 
   
   
