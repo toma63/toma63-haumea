@@ -72,6 +72,11 @@ body {
   flex-direction: row;
   gap: 5px;
 }
+.edit-message-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
 button {
   background-color:aqua;
   border-radius: 0.8em;

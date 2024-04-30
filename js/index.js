@@ -95,19 +95,16 @@ function makeEditButton() {
 
         // don't display the old edit button while editing
         let oldEditButton = entry.querySelector('button.edit-button');
-        if (oldEditButton) {
-            oldEditButton.hidden = true;
-        }
+        oldEditButton.hidden = true;
 
         // don't display the old remove button while editing
         let oldRemoveButton = entry.querySelector('button.remove-button');
-        if (oldRemoveButton) {
-            oldRemoveButton.hidden = true;
-        }
+        oldRemoveButton.hidden = true;
 
         // get the entry's unique id so its content can be used in the form
         let uid = entry.getAttribute('id');
         let clonedForm = messageForm.cloneNode(true);
+        clonedForm.className = "edit-message-form";
         clonedForm.usersName.value = entryById[uid].usersName;
         clonedForm.usersEmail.value = entryById[uid].usersEmail;
         clonedForm.usersMessage.value = entryById[uid].usersMessage;
